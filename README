@@ -1,0 +1,24 @@
+# Dependencies
+# graphviz (dot tool)
+# gcc
+
+# lib contents
+- int static stack (lib/Stack/stack_stat.c/h)
+- int dynamic stack (lib/Stack/stack_dyn.c/h)
+- int static queue (lib/Queue/queue_stat.c/h)
+- int dynamic queue (lib/Queue/queue_dyn.c/h)
+
+# usage
+- make [arg] (compile test & lib)
+args:
+make ss -- compile static stack (ss) test
+make ds -- compile dynamic stack (ds) test
+make sq -- compile static queue (sq) test
+make dq -- compile dynamic queue (dq) test
+make mh -- compile min heap (mh) test
+make bt -- compile binary tree (bt) test
+make at -- compile avl tree (at) test
+make hoa -- compile hashtable with open addressing (hoa) test
+make hca -- compile hashtable with closed addressing (hca) test
+make gr -- compile graph demo test
+make clean -- rm all *.o & bins (tests & libs)
